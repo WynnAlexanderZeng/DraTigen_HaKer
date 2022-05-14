@@ -6,9 +6,17 @@ pmwidth=pygame.display.Info().current_w
 pmheight=pygame.display.Info().current_h
 screen.fill((0,0,0))
 pygame.display.set_caption('DraTigen HaKer')
-close=pygame.image.load('images/close.png')
-closet=pygame.image.load('images/closet.png')
-bg=pygame.image.load('images/bg2.jpg')
+close=pygame.image.load('images\\close.png')
+closet=pygame.image.load('images\\closet.png')
+if pmheight/pmwidth==0.75:
+    bg=pygame.image.load('images\\bg4x3.jpg')
+elif pmheight/pmwidth==0.5625:
+    bg=pygame.image.load('images\\bg16x9.jpg')
+elif pmheight/pmwidth==0.625:
+    bg=pygame.image.load('images\\bg16x10.jpg')
+else:
+    bg=pygame.image.load('images\\bg_no_dpi.png')
+bg = pygame.transform.scale(bg,(pmwidth,pmheight))
 screen.blit(bg,(0,0))
 screen.blit(close,(pmwidth-60,0))
 while True:
