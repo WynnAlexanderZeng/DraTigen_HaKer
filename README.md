@@ -1,11 +1,11 @@
 # DraTigen-HaKer
-这是一个黑客模拟器。  
-已经开发完毕：版本号0.0.1  
-我的知乎：蜘蛛之王-wynn  
-目前支持16:9，4:3，16:10分辨率（其他情况可以自己编辑添加，如果没有支持的分辨率将会显示错误）  
+这是一个黑客模拟器。
+开发版本：0.0.1
+我的“知乎”：蜘蛛之王-Wynn
+目前，支持16:9、4:3和16:10分辨率（您可以在其他情况下自己编辑和添加它们（图片和代码）。如果不支持您的分辨率，将显示“错误”的图片） 
 ### 作者姓名 Zeng Zi wei  
 This is a hacker simulator.  
-Developed: version 0.0.1  
+Development version: 0.0.1  
 My "Zhihu": King of spiders Wynn  
-Currently, 16:9, 4:3 and 16:10 resolutions are supported (you can edit and add them yourself in other cases. If there is no supported resolution, an error will be displayed)  
+Currently, 16:9, 4:3 and 16:10 resolutions are supported (you can edit and add them yourself (pictures and codes) in other cases). "Error" picture will be displayed if your resolution is not supported)  
 ### Author's name Zeng Zi Wei  
