@@ -1,5 +1,4 @@
 # DraTigen-HaKer
-a hacker simlutear
 这是一个黑客模拟器。  
 已经开发完毕：版本号0.0.1  
 我的知乎：蜘蛛之王-wynn  
